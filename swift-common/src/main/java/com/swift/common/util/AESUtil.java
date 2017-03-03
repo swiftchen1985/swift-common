@@ -1,4 +1,4 @@
-package com.zheng.common.util;
+package com.swift.common.util;
 
 
 import javax.crypto.*;
@@ -15,7 +15,7 @@ import java.security.SecureRandom;
  */
 public class AESUtil {
 
-    private static final String encodeRules = "zheng";
+    private static final String encodeRules = "AES-128";
 
     /**
      * 加密
